@@ -1,1 +1,1 @@
-# mi349final
+# My MI349 final project where I share my favorite albums organized by mood and genre.
