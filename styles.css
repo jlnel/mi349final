@@ -494,6 +494,16 @@ img {
 
 .favorite-cover {
   margin-bottom: var(--spacing-sm);
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.favorite-cover iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .favorite-info h3 {
