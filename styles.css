@@ -398,14 +398,7 @@ img {
 
 .album-cover {
   width: 100%;
-  height: 352px;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-.album-cover iframe {
-  width: 100%;
-  height: 100%;
+  aspect-ratio: 1;
 }
 
 .album-info {
@@ -501,16 +494,6 @@ img {
 
 .favorite-cover {
   margin-bottom: var(--spacing-sm);
-  width: 100%;
-  aspect-ratio: 1;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-.favorite-cover iframe {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .favorite-info h3 {
