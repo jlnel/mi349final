@@ -398,8 +398,7 @@ img {
 
 .album-cover {
   width: 100%;
-  aspect-ratio: 1;
-  max-height: 280px;
+  height: 352px;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -407,7 +406,6 @@ img {
 .album-cover iframe {
   width: 100%;
   height: 100%;
-  min-height: 280px;
 }
 
 .album-info {
